@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "lint":"eslint .",
-     "lint:fix":"eslint --fix"
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "prettier": "npx prettier . --check .",
+    "prettier:fix": "npx prettier . --write ."
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
     "eslint-plugin-n": "^16.3.0",
     "eslint-plugin-promise": "^6.1.1",
     "nodemon": "^3.0.1",
+    "prettier": "3.0.3",
     "typescript": "^5.2.2"
   }
 }
