@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "prettier": "npx prettier . --check .",
     "prettier:fix": "npx prettier . --write .",
     "test":"jest --coverage",
-    "test:watch":"jest watchAll"
+    "test:watch":"jest --watchAll"
   },
   "repository": {
     "type": "git",
